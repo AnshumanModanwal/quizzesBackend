@@ -1,4 +1,6 @@
                                                                   **QuizApplication**
+
+                                          To see the hosted site follow the link: https://quizzesbackend.onrender.com
                                                 
 This is a simple quiz application backend built with Node.js, Express.js, and MongoDB. It provides functionality for creating quizzes, retrieving active quizzes, getting quiz results, and fetching all quizzes.
 
@@ -15,7 +17,7 @@ Get Quiz Result: After the end time of the quiz, users can retrieve the quiz res
 
 Get All Quizzes: Users can retrieve all quizzes (including inactive and finished) by sending a GET request to the /quizzes/all endpoint.
 
-                              **Installation**
+                           **Installation**
 Clone the repository:
 
 git clone https://github.com/AnshumanModanwal/quizzesBackend.git
@@ -38,7 +40,7 @@ Start the server:
 
 npm start
 
-                                 **API Documentation**
+                              **API Documentation**
 Create Quiz:
 
 To create quiz you need to be a registered user. So first signup using Post /signup endpoint and then login using /login endpoints. On login a token will be create which will use for authentication.
@@ -65,7 +67,7 @@ After 5 minutes of the quiz's end time, users can retrieve the quiz result.
 
 Get All Quizzes: Endpoint: GET /quizzes/all
 
-                     **Technologies Used**
+                            **Technologies Used**
 Node.js
 
 Express.js
@@ -75,6 +77,7 @@ MongoDB
 Mongoose
 
 JWT Authentication
+
 
                                      **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
